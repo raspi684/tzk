@@ -173,3 +173,38 @@ footer {
         border: double white 10px;
     }
 }
+
+#rank {
+
+    table {
+        margin:auto;
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 80%;
+        user-select: none;
+
+    }
+    td, th {
+        border: none;
+        padding: 10px;
+        text-align: center;
+        width:200px;
+    }
+    tr:first-of-type{
+        pointer-events: none;
+    }
+    tr{
+        background:white;
+    }
+    tr:nth-child(even) {
+        background-color:#dddddd;
+    }
+
+    tr:hover{
+        transition:0.6s;
+        cursor:pointer;
+        background:rgb(30,30, 30);
+        color:white;
+    }
+
+}

@@ -12,7 +12,7 @@
 */
 
 Route::view('/', 'pages.welcome')->name('index');
-Route::view('/rank', 'pages.welcome')->name('rank');
+Route::get('/rank', 'RankingController@index')->name('rank');
 Route::view('/map', 'pages.map')->name('map');
 Route::view('/team', 'pages.team')->name('team');
 
