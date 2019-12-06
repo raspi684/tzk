@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'pages.welcome')->name('index');
+Route::view('/rank', 'pages.welcome')->name('rank');
+Route::view('/map', 'pages.welcome')->name('map');
+Route::view('/team', 'pages.welcome')->name('team');
+
