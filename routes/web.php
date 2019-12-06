@@ -13,6 +13,6 @@
 
 Route::view('/', 'pages.welcome')->name('index');
 Route::view('/rank', 'pages.welcome')->name('rank');
-Route::view('/map', 'pages.welcome')->name('map');
+Route::view('/map', 'pages.map')->name('map');
 Route::view('/team', 'pages.team')->name('team');
 
