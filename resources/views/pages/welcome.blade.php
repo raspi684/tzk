@@ -4,7 +4,7 @@
     <div id="welcome">
         <div id="hero">
             <p>Order Techniczych Zakładów Kulinarnych</p>
-            <img src="{{asset('img/img6.jpg')}}" alt="logo">
+            <img src="{{asset('img/img6.jpg')}}" alt="hero-image">
         </div>
         <div class="panel">
             <h1>Ale o co tu chodzi?!</h1>
