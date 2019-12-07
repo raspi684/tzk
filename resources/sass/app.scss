@@ -180,7 +180,6 @@ footer {
 }
 
 #rank {
-
     table {
         display: block;
         white-space: nowrap;
@@ -210,11 +209,24 @@ footer {
         background-color:#dddddd;
     }
 
-    tr:hover{
-        transition:0.6s;
-        cursor:pointer;
-        background:rgb(30,30, 30);
-        color:white;
-    }
+        tr {
+            transition: 0.35s;
+            transition-property: color, background-color;
+            &:first-of-type {
+                pointer-events: none;
+            }
 
+            &:nth-child(even) {
+                background-color: #dddddd;
+            }
+
+            &:hover {
+                cursor: pointer;
+                background: rgb(30, 30, 30);
+                color: white;
+            }
+
+            background: white;
+        }
+    }
 }
