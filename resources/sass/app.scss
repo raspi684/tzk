@@ -193,40 +193,45 @@ footer {
         user-select: none;
         overflow-x: auto;
     }
+
     td, th {
         border: none;
         padding: 10px;
         text-align: center;
-        width:200px;
+        width: 200px;
     }
-    tr:first-of-type{
+
+    tr:first-of-type {
         pointer-events: none;
     }
-    tr{
-        background:white;
+
+    tr {
+        background: white;
     }
+
     tr:nth-child(even) {
-        background-color:#dddddd;
+        background-color: #dddddd;
     }
 
-        tr {
-            transition: 0.35s;
-            transition-property: color, background-color;
-            &:first-of-type {
-                pointer-events: none;
-            }
+    tr {
+        transition: 0.35s;
+        transition-property: color, background-color;
 
-            &:nth-child(even) {
-                background-color: #dddddd;
-            }
-
-            &:hover {
-                cursor: pointer;
-                background: rgb(30, 30, 30);
-                color: white;
-            }
-
-            background: white;
+        &:first-of-type {
+            pointer-events: none;
         }
+
+        &:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+        &:hover {
+            cursor: pointer;
+            background: rgb(30, 30, 30);
+            color: white;
+        }
+
+        background: white;
     }
 }
+
