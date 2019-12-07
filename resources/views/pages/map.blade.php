@@ -4,7 +4,6 @@
     <div id="map">
         <div id="hero">
             <p>Mapa restauracji</p>
-            <img src="{{asset('img/img11.jpg')}}" alt="hero-image">
         </div>
         <div class="panel">
             <h1>Aktualna mapa Restauracji</h1>

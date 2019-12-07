@@ -4,7 +4,6 @@
     <div id="team">
         <div id="hero">
             <p>Szwadron TZK</p>
-            <img src="{{asset('img/img10.jpg')}}" alt="hero-image">
         </div>
         <div class="panel">
             <h1>Nasi Recenzenci:</h1>
