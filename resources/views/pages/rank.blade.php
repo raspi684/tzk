@@ -4,7 +4,6 @@
     <div id="rank">
         <div id="hero">
             <p>Ranking</p>
-            <img src="{{asset('img/img9.jpg')}}" alt="hero-image">
         </div>
         <div class="panel">
             <table>
@@ -14,7 +13,7 @@
                     <th>Dystans</th>
                     <th>Smak</th>
                     <th>Czas Oczekiwania</th>
-                    <th>Ocena końcowa</th>
+{{--                    <th>Ocena końcowa</th>--}}
                 </tr>
                 @foreach($restaurants as $restaurant)
                     <tr>
