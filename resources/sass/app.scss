@@ -74,11 +74,18 @@ body {
 
 .panel {
     width: 100%;
-    padding: 5% 0;
+    //padding: 5% 0;
+    padding: 50px 0;
     background: black;
     z-index: 5;
-    box-shadow: 10px 10px 20px 20px black;
+    margin: {
+        //top: 30px;
+        left: auto;
+        right: auto;
+    }
+    box-shadow: 0 0 10px 40px black;
     position: relative;
+
     p {
         margin: {
             top: 35px;
@@ -180,18 +187,22 @@ footer {
 }
 
 #rank {
-    table {
-        display: block;
-        white-space: nowrap;
-        margin:{
-            left: auto;
-            right: auto;
+    .panel {
+        div {
+            max-width: 90vw;
+            overflow-x: auto;
+            margin: {
+                left:auto;
+                right: auto;
+            }
         }
+    }
+
+    table {
         font-family: Ubuntu, sans-serif;
         border-collapse: collapse;
-        max-width: 90vw;
         user-select: none;
-        overflow-x: auto;
+        margin: 0 auto;
     }
 
     td, th {
@@ -205,15 +216,12 @@ footer {
         pointer-events: none;
     }
 
-    tr {
-        background: white;
-    }
-
     tr:nth-child(even) {
         background-color: #dddddd;
     }
 
     tr {
+        background: white;
         transition: 0.35s;
         transition-property: color, background-color;
 
@@ -230,8 +238,6 @@ footer {
             background: rgb(30, 30, 30);
             color: white;
         }
-
-        background: white;
     }
 }
 
