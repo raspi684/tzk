@@ -16,3 +16,21 @@
         gtag("config", "{{setting('site.google_analytics_tracking_id')}}");
     </script>
 @endif
+
+<script>
+
+    window.addEventListener("onload", () => {
+        const fadeTarget = document.querySelector(".preloader");
+        fadeTarget.classList.add('slide-out');
+        const fadeEffect = setTimeout(function () {
+            fadeTarget.classList.remove('visible');
+            fadeTarget.classList.remove('slide-out');
+        }, 750);
+    });
+
+    window.addEventListener("beforeunload", () => {
+        const fadeTarget = document.querySelector(".preloader");
+        fadeTarget.classList.add('slide-in');
+    })
+
+</script>

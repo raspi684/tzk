@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lobster|Oleo+Script|Ubuntu&display=swap&subset=latin-ext');
 @import "burger";
+@import "preloader";
 
 $font-desktop: 10em;
 $font-mobile: 3.5em;
@@ -74,7 +75,6 @@ body {
 
 .panel {
     width: 100%;
-    //padding: 5% 0;
     padding: 50px 0;
     background: black;
     z-index: 5;

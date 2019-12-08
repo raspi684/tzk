@@ -15,6 +15,7 @@
 
 </head>
 <body>
+@include('includes.preloader')
 @include('includes.header')
 
 <div id="content">
