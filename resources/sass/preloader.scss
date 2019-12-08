@@ -53,12 +53,6 @@ $timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000);
     transition: transform .5s ease-in-out;
 }
 
-.slide-in {
-    will-change: transform;
-    transform: skewX(0) translateX(-100%);
-    transition: transform .5s ease-in-out;
-}
-
 .visible {
     top: 0;
     bottom: 0;

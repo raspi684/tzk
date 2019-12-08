@@ -28,9 +28,4 @@
         }, 750);
     });
 
-    window.addEventListener("beforeunload", () => {
-        const fadeTarget = document.querySelector(".preloader");
-        fadeTarget.classList.add('slide-in');
-    })
-
 </script>
