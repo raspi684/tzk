@@ -1,10 +1,18 @@
-{{-- <script src="{{asset('js/app.js')}}"></script> --}}
-<!-- Global site tag (gtag.js) - Google Analytics -->
-{{-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133313824-3"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<script src="{{asset('js/app.js')}}"></script>
 
-    gtag('config', 'UA-133313824-3');
-</script> --}}
+@if(setting('site.google_analytics_enabled'))
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async
+            src="https://www.googletagmanager.com/gtag/js?id={{setting('site.google_analytics_tracking_id')}}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag("js", new Date());
+
+        gtag("config", "{{setting('site.google_analytics_tracking_id')}}");
+    </script>
+@endif
