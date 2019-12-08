@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords"
           content="order tzk,tzk czestochowa, ranking restauracji czestochowa,order technicznych zakaładów kulinarnych,restauracje czestochowa">
-    <link rel="icon" href="{{asset('img/favicon.png')}}" type="image">
+    <link rel="icon" href="{{asset('images/favicon.png')}}" type="image">
     <title>{{config('app.name')}}</title>
 
     <link rel="stylesheet" href="{{asset('css/app.css')}}">

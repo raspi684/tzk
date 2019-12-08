@@ -13,15 +13,15 @@
             </p>
             <div class="flexbox">
                 <div>
-                    <img src="{{asset('img/S.png')}}" alt="person">
+                    <img src="{{asset('images/S.png')}}" alt="person">
                     <h2>"Schabciu"</h2>
                 </div>
                 <div>
-                    <img src="{{asset('img/G.png')}}" alt="person">
+                    <img src="{{asset('images/G.png')}}" alt="person">
                     <h2>"Drabina"</h2>
                 </div>
                 <div>
-                    <img src="{{asset('img/F.png')}}" alt="person">
+                    <img src="{{asset('images/F.png')}}" alt="person">
                     <h2>"Siurcz"</h2>
                 </div>
             </div>
