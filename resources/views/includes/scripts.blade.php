@@ -25,6 +25,7 @@
         const fadeEffect = setTimeout(function () {
             fadeTarget.classList.remove('visible');
             fadeTarget.classList.remove('slide-out');
+            fadeTarget.classList.add('hidden');
         }, 750);
     });
 

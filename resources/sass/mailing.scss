@@ -1,0 +1,68 @@
+#newsletter-form {
+    max-width: 400px;
+    z-index: 100;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    margin: 100px auto;
+
+    * {
+        opacity: 1;
+        position: relative;
+        border: 0;
+        font-size: 1.2em;
+        margin-bottom: 25px;
+    }
+
+    input[type=text],
+    input[type=email] {
+        background: white;
+        padding: 10px;
+        display: block;
+        width: 100%;
+    }
+
+    label{
+        font-family: Lobster, sans-serif;
+        display: block;
+    }
+
+    input[type=checkbox] {
+        margin-bottom: 0px;
+    }
+
+    input[type=submit] {
+        display: block;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .text-danger {
+        color: #d62956;
+        font-size: 1.2em;
+        font-family: Ubuntu, sans-serif;
+        font-weight: bold;
+        display: block;
+        text-align: left;
+        margin:{
+            left: 5px;
+            //top: -20px;
+            bottom: 20px;
+        };
+    }
+}
+
+.text-success {
+    color: #77dd77;
+    font-size: 1.5em;
+    font-family: Ubuntu, sans-serif;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin:{
+        left: 5px;
+        top: -20px;
+        bottom: 20px;
+    };
+}
