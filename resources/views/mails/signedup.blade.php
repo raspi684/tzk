@@ -12,26 +12,26 @@
 
         #container h1 {
             margin-bottom: 50px;
-            color: #ffffff !important;
+            color: #283C4B !important;
         }
 
         #container p {
             margin: 25px auto;
-            color: #ffffff !important;
+            color: #283C4B !important;
         }
 
         #container a {
             text-decoration: none;
-            color: rgba(255, 255, 255, .5) !important;
+            color: rgba(40, 60, 75, 0.7) !important;
         }
 
         #footer h3 {
             margin-top: 50px;
-            color: #ffffff !important;
+            color: #283C4B !important;
         }
     </style>
 </head>
-<body style="margin: 0; padding: 0; -webkit-text-size-adjust: 100%; background-color: #283C4B; color: #ffffff">
+<body style="margin: 0; padding: 0; -webkit-text-size-adjust: 100%; color: #283C4B">
 
 <div id="container">
     <h1>Cześć, {{$name??''}}!</h1>
